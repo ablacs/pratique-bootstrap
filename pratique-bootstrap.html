@@ -8,30 +8,7 @@ card dentro das colunas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etincelle - Bar e restaurante</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
-    <style>
-        .carousel-item{
-            height: 60vh;
-        } 
-        .carousel-item img{
-            height: 100%;
-            width: 100%;
-            
-        }
-        .item {
-            margin-bottom: 20px;
-        }
-        .card{
-            height: 100%;
-        }
-        #menu-header{
-            background-color: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(5px);
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        section {
-            padding-top: 70px;
-        }
-    </style>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#menu-header">
     <header id="menu-header" class="sticky-top">
@@ -86,9 +63,9 @@ card dentro das colunas -->
             </button>
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1" class="active"></button>
-                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2" class="active"></button>
-                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2" ></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3" ></button>
             </div>
         </div>
     </section>
@@ -109,56 +86,58 @@ card dentro das colunas -->
                 Venha nos visitar e deixe-se levar pela magia do Etincelle, onde cada prato conta uma história e cada refeição é uma nova descoberta!
             </p>
         </section>
-        <section id="promocoes" style="padding: 70px 0;">
-            <h2>Promoções</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 item">
-                    <div class="card">
-                        <img src="./imgs/bake-5160388_1280.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Café da manhâ</h5>
-                            <p class="card-text">Venha experimentar nosso clássico café da manhã belga, de segundas à sextas-feiras.</p>
-                            <span style="color: red; text-decoration: line-through;">R$ 50,00</span> 
-                            <span style="color: green;">R$ 35,00</span>
+        <div class="container">
+            <section id="promocoes" style="padding: 70px 0;">
+                <h2>Promoções</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 item">
+                        <div class="card">
+                            <img src="./imgs/bake-5160388_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Café da manhâ</h5>
+                                <p class="card-text">Venha experimentar nosso clássico café da manhã belga, de segundas à sextas-feiras.</p>
+                                <span style="color: red; text-decoration: line-through;">R$ 50,00</span> 
+                                <span style="color: green;">R$ 35,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 item">
+                        <div class="card">
+                            <img src="./imgs/cocktail-1189879_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Caipirinhas</h5>
+                                <p class="card-text">Aproveite o happy hour para experimentar nossas caipirinhas, todos os dias das 17:00 às 20:00</p>
+                                <span style="color: red; text-decoration: line-through;">R$ 20,00</span> 
+                                <span style="color: green;">R$ 14,00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 item">
+                        <div class="card">
+                            <img src="./imgs/cocktail-1191924_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bahama mama</h5>
+                                
+                                <p class="card-text">No nosso happy hour também entra o drink mais pedido da casa e exclusivo do restaurante Etincelle, você não vai se arrepender.</p>
+                                <span style="color: red; text-decoration: line-through;">R$ 27,00</span> 
+                                <span style="color: green;">R$ 16,99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 item">
+                        <div class="card">
+                            <img src="./imgs/mushrooms-2459679_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">le belgium</h5>
+                                <p class="card-text">No jantar escolha o le belgium, um prato tradicional da culinária belga. Composto por um filé ao molho de cogumelos e o tempero especial da casa.</p>
+                                <span style="color: red; text-decoration: line-through;">R$ 50,00</span> 
+                                <span style="color: green;">R$ 35,00</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 item">
-                    <div class="card">
-                        <img src="./imgs/cocktail-1189879_1280.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Caipirinhas</h5>
-                            <p class="card-text">Aproveite o happy hour para experimentar nossas caipirinhas, todos os dias das 17:00 às 20:00</p>
-                            <span style="color: red; text-decoration: line-through;">R$ 20,00</span> 
-                            <span style="color: green;">R$ 14,00</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 item">
-                    <div class="card">
-                        <img src="./imgs/cocktail-1191924_1280.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Bahama mama</h5>
-                            
-                            <p class="card-text">No nosso happy hour também entra o drink mais pedido da casa e exclusivo do restaurante Etincelle, você não vai se arrepender.</p>
-                            <span style="color: red; text-decoration: line-through;">R$ 27,00</span> 
-                            <span style="color: green;">R$ 16,99</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 item">
-                    <div class="card">
-                        <img src="./imgs/mushrooms-2459679_1280.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">le belgium</h5>
-                            <p class="card-text">No jantar escolha o le belgium, um prato tradicional da culinária belga. Composto por um filé ao molho de cogumelos e o tempero especial da casa.</p>
-                            <span style="color: red; text-decoration: line-through;">R$ 50,00</span> 
-                            <span style="color: green;">R$ 35,00</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <section id="contato">
             <h2>Contato</h2>
             <p>Entre em contato conosco e nos deixe uma mensagem:</p>
@@ -172,23 +151,51 @@ card dentro das colunas -->
                     <input type="email" class="form-control" id="email">
                 </div>
                 <button type="button" class="btn btn-primary">Enviar</button>
+            </form>
         </section>
     </div>
     <footer class="footer">
         <p>Etincelle © 2023. Todos os direitos reservados. telefone para contato <a href="tel:+5511999999999">(11) 99999-9999</a></p>
     </footer>
 </body>
-<script src="./lib/bootstrap.bundle.min.js">
-        const menuItems= document.querySelectorAll('.menu-item');
-    const navbarCollapse = document.getElementById('menu-navbar');
-    menuItems.forEach(item=>{
-        item.addEventListener('click', ()=> {
-            if (navbarCollapse.classList.contains('show')){
-                const bsCollapse = new bootstrap.Collapse(navbarCollapse)
-                bsCollapse.hide()
-            }
-        })
-    })
+<script src="./lib/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('section');
+
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        function removeActiveClasses() {
+            menuItems.forEach(item => item.classList.remove('active'));
+        }
+
+        function activateMenuItem(sectionId) {
+            menuItems.forEach(item => {
+                if (item.getAttribute('href') === `#${sectionId}`) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        function handleScroll() {
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+
+                const sectionHeight = section.offsetHeight;
+
+                const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    const currentSectionId = section.getAttribute('id');
+
+                    removeActiveClasses();
+
+                    activateMenuItem(currentSectionId);
+                }
+            });
+        }
+        window.addEventListener('scroll', handleScroll);
+    });
 </script>
 
 </html>
